@@ -1,10 +1,27 @@
-# Coda - sheet music reader for mobile devices
 
 A mobile app that lets you easily read sheet music, by automatically zooming into the stave/staff and scrolling along as you play.
+This project is written in React Native with Expo. For My Final Year PRoject
+
 
 ## Getting Started
 
-This project is written in React Native with Expo.
+
+
+## PROBLEMS
+
+- Screen Orientation crashes giving Error 
+- Android.manifest file solution doesnt work
+- React-native doesnt support WebMIDI API
+- JSON files reading much more difficult
+- Plethora of other issues with MIDI inputs, tried to fix them for weeks yet only lead to a different issue...
+- MIDI inputs sometimes do not register
+- APP freezes randomly and rarely even causes BSOD on Android emulator
+
+
+## Dependancies
+- react-native-piano-sdk by shukerullah (https://github.com/shukerullah/react-native-piano-sdk)
+- Open Sheet Music Display library (https://github.com/opensheetmusicdisplay/react-opensheetmusicdisplay)
+- React-Native-Vexflow implementation by Rechie Kho (https://github.com/RechieKho/react-native-vexflow)
 
 ### Prerequisites
 
@@ -17,11 +34,7 @@ npm install expo-cli --global
 
 ### Running the app
 
-```
-cd sheet-music-reader
 expo start
-```
-You'll be given a QR code that you can scan with the [Expo app](https://apps.apple.com/us/app/expo-client/id982107779) on an external device, or use a simulator.
 
 ## Built With
 
